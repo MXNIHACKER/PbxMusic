@@ -1,4 +1,4 @@
-from DevilX.core.bot import VIP
+from DevilX.core.bot import MXNI
 from DevilX.core.dir import dirr
 from DevilX.core.git import git
 from DevilX.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = VIP()
+app = MXNI()
 api = SafoneAPI()
 userbot = Userbot()
 
