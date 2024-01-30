@@ -20,6 +20,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
+#Put your bot username here
+BOT_USERNAME = getenv("New_Music_Test_Bot")
+
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
 
