@@ -3,7 +3,7 @@ import math
 from pyrogram.types import InlineKeyboardButton
 
 from DevilX.utils.formatters import time_to_seconds
-from DevilX.utils.inline.speed import upl
+from DevilX.utils.inline.speed import speed_markup , upl
 from DevilX import app
 
 def track_markup(_, videoid, user_id, channel, fplay):
