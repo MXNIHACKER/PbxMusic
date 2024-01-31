@@ -238,7 +238,8 @@ def queue_markup(_, videoid, chat_id):
     return buttons
 
 
-def SPEED_BTN = [InlineKeyboardMarkup(
+def SPEED_BTN = [
+                InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
