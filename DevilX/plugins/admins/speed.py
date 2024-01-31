@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from DevilX import app
-from DevilX.core.call import Vip
+from DevilX.core.call import MXNI
 from DevilX.misc import SUDOERS, db
 from DevilX.utils import AdminRightsCheck
 from DevilX.utils.database import is_active_chat, is_nonadmin_chat
