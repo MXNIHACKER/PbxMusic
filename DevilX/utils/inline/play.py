@@ -65,7 +65,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="⏹️", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="**sᴘᴇᴇᴅ**", callback_data="speed"),
+            InlineKeyboardButton(text="**sᴘᴇᴇᴅ**", callback_data="SPEED_BTN"),
         ],
         [
             InlineKeyboardButton(text="𐏓 ⃪⃝🇺🇸 ꯭𝗗ᴇᴠɪ𝗟 ꯭༎ࠫ⛧‌", url="https://t.me/ll_mxni_ll"),
@@ -236,3 +236,42 @@ def queue_markup(_, videoid, chat_id):
     ]
 
     return buttons
+
+
+def SPEED_BTN = [InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="0.5x",
+                    callback_data=f"SpeedUP {chat_id}|0.5",
+                ),
+                InlineKeyboardButton(
+                    text="0.75x",
+                    callback_data=f"SpeedUP {chat_id}|0.75",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text=_["P_B_4"],
+                    callback_data=f"SpeedUP {chat_id}|1.0",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="1.5x",
+                    callback_data=f"SpeedUP {chat_id}|1.5",
+                ),
+                InlineKeyboardButton(
+                    text="2.0x",
+                    callback_data=f"SpeedUP {chat_id}|2.0",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data="close",
+                ),
+            ],
+        ],
+          ),
+            ]
