@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pydub import AudioSegment
 import os
-from VIPMUSIC import app
+from DevilX import app
 
 
 @app.on_message(filters.command("bass"))
